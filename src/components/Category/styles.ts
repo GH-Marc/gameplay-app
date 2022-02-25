@@ -16,34 +16,35 @@ export const styles = StyleSheet.create({
     height: 116,
     alignItems: "center",
     justifyContent: "space-between",
-    backgroundColor: theme.colors.secondary40,
     borderRadius: 8,
-    paddingVertical: 7
+    paddingVertical: 20
   },
 
   title: {
-    fontFamily: theme.fonts.title500,
+    fontFamily: theme.fonts.title700,
     color: theme.colors.heading,
     fontSize: 15
   },
 
   check: {
+    position: "absolute",
     width: 12,
     height: 12,
-    alignSelf: "flex-end",
+    top: 7,
+    right: 7,
     backgroundColor: theme.colors.secondary100,
-    marginRight: 7,
     borderColor: theme.colors.secondary50,
     borderWidth: 2,
     borderRadius: 3
   },
 
   checked: {
+    position: "absolute",
     width: 10,
     height: 10,
-    alignSelf: "flex-end",
+    top: 7,
+    right: 7,
     backgroundColor: theme.colors.primary,
-    marginRight: 7,
     borderRadius: 3
   }
 })
